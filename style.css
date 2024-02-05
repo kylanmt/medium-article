@@ -1,0 +1,55 @@
+body {
+  font-family: 'Lora';
+  position: relative;
+}
+
+.banner {
+  background-image: url(images/vision_pro.jpeg);
+  padding: 300px 0;
+  background-size: cover;
+  color: white;
+  height: 100px;
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  background: #00AF52;
+  background: radial-gradient(circle farthest-corner at center center, #00AF52 0%, #00BBA9 71%, #00A4AD 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.chapters {
+  font-family: 'Lora';
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(125, 191, 148);
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Montserrat';
+}
+
+a:hover {
+  background-color: linear-gradient(to bottom, rgb(125, 191, 148), rgba(233, 253, 240, 1));
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
